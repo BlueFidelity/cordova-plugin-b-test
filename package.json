@@ -1,0 +1,27 @@
+{
+  "name": "cordova-plugin-b-test",
+  "version": "1.2.2",
+  "description": "Boot Fidelity Cordova Plugin Test",
+  "homepage": "https://www.bluefidelity.com/",
+  "cordova": {
+    "id": "cordova-plugin-b-test",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BlueFidelity/cordova-plugin-b-test.git"
+  },
+  "keywords": [
+    "cordova",
+    "intent",
+    "share",
+    "send",
+    "file",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Blue Fidelity Inc. (https://www.bluefidelity.com/)",
+  "license": "MIT"
+}
