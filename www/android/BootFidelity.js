@@ -12,5 +12,8 @@ module.exports = {
     },
     getNativePath: function (uri, successCallback, errorCallback) {
         exec(successCallback, errorCallback, 'BootFidelity', 'getNativePath', [uri]);
+    },
+    getTempPath: function (uri, successCallback, errorCallback) {
+        exec(successCallback, errorCallback, 'BootFidelity', 'getNativePath', [uri]);
     }
 };
