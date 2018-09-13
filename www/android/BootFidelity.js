@@ -14,6 +14,6 @@ module.exports = {
         exec(successCallback, errorCallback, 'BootFidelity', 'getNativePath', [uri]);
     },
     getTempPath: function (uri, successCallback, errorCallback) {
-        exec(successCallback, errorCallback, 'BootFidelity', 'getNativePath', [uri]);
+        exec(successCallback, errorCallback, 'BootFidelity', 'getTempPath', [uri]);
     }
 };
