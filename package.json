@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-b-test",
-  "version": "1.2.41",
+  "version": "1.2.42",
   "description": "Boot Fidelity Cordova Plugin Test",
   "homepage": "https://www.bluefidelity.com/",
   "cordova": {
