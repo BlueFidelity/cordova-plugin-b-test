@@ -266,7 +266,7 @@ public class BootFidelity extends CordovaPlugin {
 				this.callbackContext = context;
 				PermissionHelper.requestPermission(this, 0, Manifest.permission.READ_EXTERNAL_STORAGE);
 		  } else {
-				context.sendPluginResult(new PluginResult(PluginResult.Status.OK, 'true'));
+				context.sendPluginResult(new PluginResult(PluginResult.Status.OK, "true"));
 		  }
 
         return true;
@@ -281,6 +281,6 @@ public class BootFidelity extends CordovaPlugin {
                 return;
             }
         }
-        this.callbackContext.sendPluginResult(new PluginResult(PluginResult.Status.OK, 'done'));
+        this.callbackContext.sendPluginResult(new PluginResult(PluginResult.Status.OK, "done"));
     }
 }
